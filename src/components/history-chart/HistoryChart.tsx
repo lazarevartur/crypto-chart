@@ -47,12 +47,6 @@ export const HistoryChart: FC<IHistoryChartProps> = ({
         data: chartData.map((value) => value.y),
         backgroundColor: "rgba(53, 162, 235, 0.5)",
       },
-      {
-        fill: true,
-        label: 'tokenName',
-        data: chartData.map((value) => value.y),
-        backgroundColor: "rgba(53, 162, 235, 0.5)",
-      },
     ],
   };
 
