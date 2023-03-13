@@ -16,6 +16,7 @@ export const CoinDetail: FC<CoinDetailProps> = ({ coinInfo }) => {
         className="mt-6 text-gray-500 [&>a]:text-blue-600 [&>a]:underline"
         dangerouslySetInnerHTML={{ __html: coinInfo?.description.en ?? "" }}
       />
+
     </div>
   );
 };
